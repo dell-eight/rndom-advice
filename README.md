@@ -1,5 +1,5 @@
 # Tech
 
-- HTML, CSS, JS
-- React JS
+- HTML, CSS
+- JS/React JS
 - API
