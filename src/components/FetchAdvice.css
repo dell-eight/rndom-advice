@@ -1,0 +1,79 @@
+:root {
+  --main-color: rgb(236, 237, 255);
+  --bg-transparent-color: rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  width: 700px;
+  padding: 5% 10%;
+  background-color: var(--bg-transparent-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+button {
+  margin-top: 3%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background-color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  color: var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+
+@media screen and (max-width: 830px) {
+  .card {
+    width: 600px;
+  }
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    width: 450px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 320px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.7rem;
+  }
+}

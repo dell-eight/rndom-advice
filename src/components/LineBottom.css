@@ -1,0 +1,29 @@
+.line-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20;
+}
+
+.line {
+  border-bottom: 0.5px solid var(--bg-transparent-light-color);
+  width: 40%;
+  height: 1px;
+}
+
+.dice-random {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 850px) {
+  .dice-random {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dice-random {
+    font-size: 25px;
+  }
+}
