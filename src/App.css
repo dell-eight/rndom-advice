@@ -9,6 +9,8 @@
 
 body {
   background-image: url('https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
   height: 100vh;
 }
